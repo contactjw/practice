@@ -32,6 +32,8 @@ public:
     {
         if (mailing == 1)
             mailingList = true;
+        else if (mailing == 0)
+            mailingList = false;
     }
     
     int getCustomerNumber()
@@ -39,9 +41,12 @@ public:
         return customerNumber;
     }
     
-    bool getMailingList()
+    string getMailingList()
     {
-        return mailingList;
+        if (mailingList == true)
+            return "Yes";
+        else
+            return "No";
     }
     
 };
