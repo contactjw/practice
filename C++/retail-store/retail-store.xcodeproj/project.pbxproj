@@ -26,6 +26,7 @@
 		2776624B22DC1219000C9637 /* retail-store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "retail-store"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2776624E22DC1219000C9637 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2776625522DC125D000C9637 /* PersonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonData.h; sourceTree = "<group>"; };
+		2776625622DC1490000C9637 /* CustomerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				2776624E22DC1219000C9637 /* main.cpp */,
 				2776625522DC125D000C9637 /* PersonData.h */,
+				2776625622DC1490000C9637 /* CustomerData.h */,
 			);
 			path = "retail-store";
 			sourceTree = "<group>";
