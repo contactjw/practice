@@ -28,6 +28,7 @@
 		2776623B22DC0B28000C9637 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		2776623C22DC0B3A000C9637 /* ProductionWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductionWorker.h; sourceTree = "<group>"; };
 		2776623D22DC0C3B000C9637 /* ShiftSupervisor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftSupervisor.h; sourceTree = "<group>"; };
+		2776623E22DC0D42000C9637 /* TeamLeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamLeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				2776623B22DC0B28000C9637 /* Employee.h */,
 				2776623C22DC0B3A000C9637 /* ProductionWorker.h */,
 				2776623D22DC0C3B000C9637 /* ShiftSupervisor.h */,
+				2776623E22DC0D42000C9637 /* TeamLeader.h */,
 			);
 			path = "employee-information";
 			sourceTree = "<group>";
