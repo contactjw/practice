@@ -51,6 +51,4 @@ public:
     
 };
 
-
-
 #endif /* Ship_h */

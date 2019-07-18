@@ -26,6 +26,7 @@
 		2727A53822DED541004CCC62 /* ships-virtual */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ships-virtual"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2727A53B22DED541004CCC62 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2727A54222DED560004CCC62 /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		27690E7822E022FF00DC265A /* CruiseShip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CruiseShip.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				2727A53B22DED541004CCC62 /* main.cpp */,
 				2727A54222DED560004CCC62 /* Ship.h */,
+				27690E7822E022FF00DC265A /* CruiseShip.h */,
 			);
 			path = "ships-virtual";
 			sourceTree = "<group>";
