@@ -14,6 +14,12 @@ public:
         maxPassengers = 0;
     }
     
+    CruiseShip(string name, int passengers)
+    {
+        maxPassengers = passengers;
+        shipName = name;
+    }
+    
     CruiseShip(int passengers, string name, string year) : Ship(name, year)
     {
         maxPassengers = passengers;

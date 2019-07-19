@@ -14,6 +14,12 @@ public:
         cargoWeight = 0;
     }
     
+    CargoShip(string name, int weight)
+    {
+        cargoWeight = weight;
+        shipName = name;
+    }
+    
     CargoShip(int weight, string name, string year) : Ship(name, year)
     {
         cargoWeight = weight;

@@ -7,24 +7,19 @@ using namespace std;
 
 int main()
 {
-    Ship *boat = new Ship("Titanic", "1775");
-    boat->print();
+    const int NUM_SHIPS = 3;
+    Ship *shipArray[NUM_SHIPS] = {
+                                   new Ship("Titanic", "July 5, 1912"),
+                                   new CruiseShip("Carnival", 6300),
+                                   new CargoShip("Deliverer", 1300)
+                                 };
     
-    CruiseShip *ship = new CruiseShip();
     
-    cout << endl;
-    
-    ship->setName("Lusitania");
-    ship->setPassengers(15000);
-    ship->print();
-    
-    cout << endl;
-    
-    CargoShip *cargo = new CargoShip();
-    
-    cargo->setName("Transporter");
-    cargo->setWeight(140);
-    cargo->print();
+    for (int i = 0; i < NUM_SHIPS; i++)
+    {
+        shipArray[i]->print();
+        cout << endl;
+    }
 
     
     
