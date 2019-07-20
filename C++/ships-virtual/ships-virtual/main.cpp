@@ -14,14 +14,12 @@ int main()
                                    new CargoShip("Deliverer", 1300)
                                  };
     
-    
     for (int i = 0; i < NUM_SHIPS; i++)
     {
         shipArray[i]->print();
         cout << endl;
     }
 
-    
     
     return 0;
 }
