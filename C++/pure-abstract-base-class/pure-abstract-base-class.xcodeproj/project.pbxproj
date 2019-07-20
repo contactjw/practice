@@ -27,6 +27,7 @@
 		2790E66B22E3C8ED00997B16 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2790E67222E3C90E00997B16 /* BasicShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicShape.h; sourceTree = "<group>"; };
 		2790E67322E3CA2D00997B16 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		2790E67422E3CC7600997B16 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				2790E66B22E3C8ED00997B16 /* main.cpp */,
 				2790E67222E3C90E00997B16 /* BasicShape.h */,
 				2790E67322E3CA2D00997B16 /* Circle.h */,
+				2790E67422E3CC7600997B16 /* Rectangle.h */,
 			);
 			path = "pure-abstract-base-class";
 			sourceTree = "<group>";
