@@ -6,12 +6,12 @@ using namespace std;
 
 class BasicShape
 {
-private:
+protected:
     double area;
 public:
     BasicShape()
     {
-        area = 0.0;f
+        area = 0.0;
     }
     
     double getArea()

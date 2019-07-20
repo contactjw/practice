@@ -14,6 +14,7 @@ public:
     {
         width = w;
         length = len;
+        calcArea();
     }
     
     long int getWidth()
