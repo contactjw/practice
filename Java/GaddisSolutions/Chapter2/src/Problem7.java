@@ -25,6 +25,8 @@ public class Problem7 {
 		System.out.println("County Sales Tax: $" + countyTaxAmount);
 		System.out.println("Total Sales Tax:  $" + totalTax);
 		System.out.println("Total Sales Cost: $" + (purchase + totalTax));
+		
+		keyboard.close();
 	}
 
 }
