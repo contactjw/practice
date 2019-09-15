@@ -3,10 +3,10 @@ public class Problem2 {
 
 	public static void main(String[] args) {
 		String firstName = "John",
-			   middleName = "Joseph",
-			   lastName = "West";
+			   middleName = "David",
+			   lastName = "White";
 		char firstInitial = 'J',
-			 middleInitial = 'J',
+			 middleInitial = 'D',
 			 lastInitial = 'W';
 		
 		System.out.println("Name: " + firstName + " " + middleName + " " + lastName);
